@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Source/**/*'
-  s.dependency 'Pages'
-  s.dependency 'Cartography'
+  s.dependency 'Pages', :git => 'https://github.com/hyperoslo/Pages.git', :commit => '52616ce756bb8c9f5c1a6a0b3d068adb08278d78'
+  s.dependency 'Cartography', :git => 'https://github.com/robb/Cartography.git', :commit => 'ecdeffda56a6ce9dc8bb571b5455a6395d403b03'
 end
